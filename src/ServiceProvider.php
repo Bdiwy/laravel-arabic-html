@@ -2,9 +2,9 @@
 
 namespace Ab\ArabicHTML;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Illuminate\View\View;
 use Barryvdh\DomPDF\Facade\Pdf;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
 {
